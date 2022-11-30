@@ -1,6 +1,6 @@
 # Donate-Now
 
-### Use 
+### Use : 
 * HTML
 * CSS
 * TailwindCSS
