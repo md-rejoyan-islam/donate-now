@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Donation site</title>
+	 <script src="https://cdn.tailwindcss.com"></script>
+    <title>Donate Now</title>
 </head>
 <html>
 <body>
-		<header>
-			<div>
-				<h1>Let’s Help Those Who Are More In Need</h1>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. veniam et. Natus eum, nihil laudantium asperiores provident voluptates possimus dolores nostrum magnam a molestias ut illo!</p>
-				<a href="https://www.facebook.com/KINSUST" target="_blank" class="btn">Donate Now</a>
+		<header class="flex justify-center lg:p-[160px] p-[90px] text-white">
+			<div class="lg:w-[1/2] w-4/5 text-center ">
+				<h1 class="lg:text-6xl text-4xl text-center ">Let’s Help Those Who Are More In Need</h1>
+				<p class="lg:text-xl text-md text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. veniam et. Natus eum, nihil laudantium asperiores provident voluptates possimus dolores nostrum magnam a molestias ut illo!</p>
+				<a href="https://www.facebook.com/KINSUST" target="_blank" class="btn lg:text-xl text-md ">Donate Now</a>
 			</div>
 		</header>
 		<main>
@@ -22,7 +23,7 @@
 					<h3>Donate Today</h3>
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, tenetur. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
 				</div>
-				<div class="donate-amount">
+				<div class="donate-amount grid lg:grid-cols-4 xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 justify-items-center gap-7 ">
 					<div style="background-color:#fafafa;">100tk</div>
 					<div style="background-color:#ffeeee; border:3px solid red;">200tk</div>
 					<div style="background-color:#fafafa;">500tk</div>
@@ -36,18 +37,18 @@
 						<input type="text" placeholder="Other Amount (Taka)">
 						<br>
 						<br>
-						<button type="submit" class="btn">
+						<button type="submit" class="btn lg:text-xl text-md  text-white">
 								<a href="https://www.facebook.com/KINSUST" target="_blank" "="">Donate Now</a>
 						</button>
 					</form>
 				</div>
 			</section>
 			<section id="donate_plan">
-				<div>
+				<div  class="md:w-1/2 mx-auto text-center">
 					<h3>Our Donate Plan</h3>
 					<p style="padding:0px 0px 30px 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, animi.</p>
 				</div>
-				<section>
+				<section class="grid lg:grid-cols-3 sm:grid-cols-2 gap-8">
 					<div style="background-color:#eef6f7;">
 						<img src="./assets/icons/diet.png" alt="" class="icon">
 						<h2>Food for a family</h2>
@@ -58,81 +59,82 @@
 						<h2>Shelter for a family</h2>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis tenetur iusto unde eligendi ducimus, voluptate fuga modi incidunt consequuntur.</p>
 					</div>
-					<div style="background-color:#fff4d6;">
+					<div style="background-color:#fff4d6;" class="">
 						<img src="./assets/icons/open-book.png" alt="" class="icon">
 						<h2>Education for a child</h2>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veritatis tenetur iusto unde eligendi ducimus, voluptate fuga modi incidunt consequuntur.</p>
 					</div>
 				</section>
 			</section>
-			<section class="donation_details similar_sec">
+			<section class="donation_details grid lg:grid-cols-2 place-items-center">
 				<div>
 					<h3>Their lives depend on your donation</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt eos deserunt ullam veniam. Voluptas rem aspernatur modi fuga sint adipisci. Ipsum nemo quas alias ad fugit impedit a praesentium.</p>
 					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, aliquid!</p>
-					<button class="btn">
+					<button class="btn my-5 ">
 						<a href="https://www.facebook.com/KINSUST" target="_blank">How to Contribute?</a>
 					</button>
 				</div>
 				<div>
-					<img src="./assets/images/help3.webp" alt="">
+					<img src="./assets/images/help3.webp" alt="" class="rounded-md">
 				</div>
 			</section>
-			<section class="similar_sec">
+			<section class="grid lg:grid-cols-2 place-items-center">
 				<div>
-					<img src="./assets/images/help1.webp" alt="">
+					<img src="./assets/images/help1.webp" alt="" class="py-5 lg:py-0 rounded-md lg:pr-5">
 				</div>
 				<div>
 					<h3>They need us to suvive</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt eos deserunt ullam veniam. Voluptas rem aspernatur modi fuga sint adipisci. Ipsum nemo quas alias ad fugit impedit a praesentium.</p>
 					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, aliquid!</p>
-					<button class="btn">
-						<a href="https://www.facebook.com/KINSUST" target="_blank">How to Contribute?</a>
+					<button class="btn my-5">
+						<a href="https://www.facebook.com/KINSUST" class="" target="_blank">How to Contribute?</a>
 					</button>
 				</div>
 			</section>
 			<section class="mission">
-				<h3 style="text-align:center; margin-bottom:50px">How can you help</h3>
-				<h2 style="text-align:center;margin-top:-50px ;color: red;">Join our mission</h2>
-				<div>
-					<div style="width:60%;">
-					<div class="mission_div">
-					<div><img src="./assets/icons/dollar-symbol.png" alt="" class="icon"></div>
-					<div>
+				<h3 class="text-center  mb-1">How can you help</h3>
+				<h2 class="text-center text-red-500 mb-5" >Join our mission</h2>
+				<div class="grid lg:grid-cols-2">
+					<div class="">
+						<div class="flex gap-10 items-center">
+						<div><img src="./assets/icons/dollar-symbol.png" alt="" class="lg:w-[90px] w-[70px] h-[70px] p-3 bg-green-300 border rounded-md border-red-500"></div>
+						<div>
 						<h1>Donations</h1>
 						<p>We are always with you at any crisis in Bnagladesh to help and support you.</p>
 
-					</div>
-				</div>
-				<div class="mission_div">
-					<div><img src="./assets/icons/donation.png" alt="" class="icon"></div>
+							</div>
+						</div >
+						<div class="flex gap-10 items-center my-5">
+					<div><img src="./assets/icons/donation.png" alt="" class="w-[70px] h-[70px] p-3 bg-green-300 border rounded-md border-red-500"></div>
 					<div>
 						<h1>Volunteer</h1>
 						<p>We will be proud to have you as a volunteer.</p>
 
 					</div>
-				</div>
-				<div class="mission_div">
-					<div><img src="./assets/icons/deal.png" alt="" class="icon"></div>
+						</div>
+						<div class="flex gap-10 items-center my-5">
+					<div><img src="./assets/icons/deal.png" alt="" class="w-[70px] h-[70px] p-3 bg-green-300 border rounded-md border-red-500"></div>
 					<div>
 						<h1>Sponsorship</h1>
 						<p>Support us by your donations to create a better future.</p>
 
 					</div>
-				</div>
-				</div>
-				<div style="width:30%;margin-top: 30px;">
-					<iframe width="460" height="300" src="https://www.youtube.com/embed/We3QU0x1Mec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
+						</div>
+					</div>
+					<div class="">
+					<iframe class="w-full h-[350px] lg:h-full" src="https://www.youtube.com/embed/We3QU0x1Mec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>	
 			</section>
-			<section class="update">
+			<section class="update lg:w-[60%] mx-auto">
 				<div>
 					<h3>Get My Updates</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aspernatur.</p>
 				</div>
-				<div>
-					<input type="email" placeholder="Email">
-					<button class="btn">
+				<div class="">
+					<input type="email" placeholder="Email" class="p-2 bg-zinc-200  ">
+					<button class="btn rounded-0  ">
 						<a href="https://www.facebook.com/KINSUST" target="_blank">Subscribe</a>
 					</button>
 				</div>

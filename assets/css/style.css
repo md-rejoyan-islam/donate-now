@@ -1,266 +1,187 @@
- 
- /* Import font family */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;0,500;0,600;1,500;1,700&family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Pacifico&display=swap');
+/* Import font family */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;0,500;0,600;1,500;1,700&family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Pacifico&display=swap");
 
 /* Style body tag */
 
-body{
-    font-family: 'IBM Plex Serif', serif;;
+body {
+  font-family: "IBM Plex Serif", serif;
 }
 
- /* style all anchor tag */
-a{
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    background-color: #ff5959;
-    font-weight: 500;
-    border-radius: 5px;
+/* style all anchor tag */
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: #ff5959;
+  font-weight: 500;
+  border-radius: 5px;
 }
 
 /* Styl all paragraph tag */
-p{
-    color:#828282;
-    font-size: 17px;
-}
-
-/* Style all button tag */
-.btn{
-    padding: 15px 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 600;
-    padding: 15px 20px;
-    border: none;
-    background-color: #ff5959;
-    font-size: 20px;
+p {
+  color: #828282;
+  font-size: 17px;
 }
 
 /* Style all icon tag */
-.icon{
-    width: 70px;
+.icon {
+  width: 70px;
 }
 
 /* add bottom margin in all section */
 
-section{
-    margin-bottom: 120px;
+section {
+  margin-bottom: 120px;
 }
 
 /* Style h3 tag */
 
-h3{
-    font-size: 50px;
-    font-weight: 900;
-    color: black;
-    margin: 0px;
-
+h3 {
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+  margin: 0px;
 }
 
 /* style h2 tag  */
-h2{
-    font-size: 30px;
-    font-weight: 900;
+h2 {
+  font-size: 30px;
+  font-weight: 900;
 }
 
-
- /* header section */
-header{ 
-    background:linear-gradient(to top,rgba(39, 33, 33, 0.9),rgba(25, 18, 18, 0.7), rgba(16, 12, 12, 0.4)), url(../images/help2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding: 180px 0px;
-    margin-bottom: 120px;   
+/* header section */
+header {
+  background: linear-gradient(
+      to top,
+      rgba(39, 33, 33, 0.9),
+      rgba(25, 18, 18, 0.7),
+      rgba(16, 12, 12, 0.4)
+    ),
+    url(../images/help2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 120px;
 }
 
 /* Inner div in header section  */
-header div{
-    width: 50%;
-    text-align: center;  
-}
 
 /* inner paragraph in header section */
-header p{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 30px;
-    color: white;
+header p {
+  margin: auto;
+  margin-bottom: 30px;
+  color: white;
 }
 
 /* Inner  h1 tag in header tag */
-header h1{
-    font-size: 60px;
-    margin: 0px 0px 20px 0px;
+header h1 {
+  font-size: 60px;
+  margin: 0px 0px 20px 0px;
 }
-
 
 /* Style main section  */
-main{
-    margin: auto;
-    width: 85%;
+main {
+  margin: auto;
+  width: 85%;
 }
 
-
 /* Inner div in donate section */
-#donate div{
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    padding: 5px;
-    color: #707070;   
+#donate div {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  color: #707070;
 }
 
 /* Donate amount div in donate section */
-.donate-amount{
-    display: flex;
-    gap: 20px;
+.donate-amount {
+  /* display: flex;
+    gap: 20px; */
 }
 
 /* inner div in donate-amount */
-#donate .donate-amount div{
-    padding: 40px 0px;
-    width: 120px;
-    border-radius: 5px;
-    display: inline-block;
-    font-weight: 900;
-    font-size: 30px;
+#donate .donate-amount div {
+  padding: 40px 0px;
+  width: 120px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 /* input tag in donate section */
-#donate input{
-    width: 100%;
-    font-size: 20px;
-    border: none;
-    padding: 10px 0px;
-    border-bottom: 1px solid rgb(202, 198, 198);
+#donate input {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(202, 198, 198);
 }
 /* Input tag placeholder style */
-#donate input::placeholder{
-    text-align: center;
-    margin-bottom: 20px;
-    color: #bdbdbd;
+#donate input::placeholder {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #bdbdbd;
 }
 
 /* Child div in donate_plan */
-#donate_plan >div{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-}
 
 /* Inner section in donate_plan */
-#donate_plan section{
-    display: flex;
-    gap: 50px;
-}
 
 /* Inner div in donate plan  section */
-#donate_plan section div{
-    background-color: grey;
-    padding: 45px 15px;
-    border-radius: 5px;  
+#donate_plan section div {
+  background-color: grey;
+  padding: 45px 15px;
+  border-radius: 5px;
 }
 
 /* Img tag in similar-sec section */
-.similar_sec div img{
-    height: 350px;
-    margin:15px ;
-    width: 90%;
-    border-radius: 5px;  
+.similar_sec div img {
+  height: 350px;
+  margin: 15px;
+  width: 90%;
+  border-radius: 5px;
 }
 
 /* Style .similar_sec class section */
-.similar_sec div{
-    width: 50%;
-    margin-bottom: 70px;   
+.similar_sec div {
+  width: 50%;
+  margin-bottom: 70px;
 }
 
-
-.similar_sec img{
-    height: 300px;
+.similar_sec img {
+  height: 300px;
 }
 
-
-.similar_sec{
-    display: flex;
-    margin: 30px 0px;   
+.similar_sec {
+  display: flex;
+  margin: 30px 0px;
 }
 
 /* style inner div in .update section */
-.update div{
-width: 60%;
-margin: auto;
-text-align: center;
+.update div {
+  margin: auto;
+  text-align: center;
 }
 
 /* 2nd div style in .update section */
-.update div:nth-child(2){
-    display: flex;
-    justify-content: center;
-    padding: 70px 0px;
-    background-color: #fff4d6;
-    margin-top: 40px;
+.update div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px;
+  background-color: #fff4d6;
+  margin-top: 40px;
 }
 
 /* top margin in .update section */
-.update{
-    margin-top: 100px;
+.update {
+  margin-top: 100px;
 }
 
 /* footer tag style */
-footer{
-    background-color: black;
-    color: white;
-    padding: 30px 0px;
-    text-align: center;
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px 0px;
+  text-align: center;
 }
-
-/* Button tag style in update section */
-.update button{
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    font-weight: 400;
-}
-
-/* Update section */
-.update input{
-    width: 40%;
-    border-radius: 5px 0px 0px 5px;
-    border: none;
-    background-color: #d9d9d9;
-    font-size: 20px;
-    padding: 0px 20px;
-}
-
-/* Inner div .mission section */
-.mission > div{
-    display: flex; 
-}
-
-/* Style inner icon in .mission section */
-.mission_div .icon{
-    border: 1px solid red;
-    padding: 10px;
-    background-color: rgb(0, 255, 179);
-    border-radius: 5px;
-}
-
-.mission_div{
-    display: flex;
-}
-
-/* First div in .mission_div */
-.mission_div div:nth-child(1){
-    width:15% ;
-    margin-top: 30px;
-}
-/* Second div in .mission_div */
-.mission_div div:nth-child(2){
-    width: 70%;
-}
-
-
