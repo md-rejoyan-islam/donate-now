@@ -3,7 +3,7 @@
 /* Style h3 tag */
 
 h3 {
-  font-size: 40px ; 
+  font-size: 40px !important ; 
   font-weight: 900;
   color: black;
   margin: 0px;
@@ -11,7 +11,7 @@ h3 {
 
 /* style h2 tag  */
 h2 {
-  font-size: 30px;
+  font-size: 30px !important;
   font-weight: 900;
 }
 
