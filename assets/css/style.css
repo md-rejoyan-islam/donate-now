@@ -1,43 +1,9 @@
-/* Import font family */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,200;0,500;0,600;1,500;1,700&family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Pacifico&display=swap");
-
-/* Style body tag */
-
-body {
-  font-family: "IBM Plex Serif", serif;
-}
-
-/* style all anchor tag */
-a {
-  text-decoration: none;
-  color: white;
-  padding: 10px 20px;
-  background-color: #ff5959;
-  font-weight: 500;
-  border-radius: 5px;
-}
-
-/* Styl all paragraph tag */
-p {
-  color: #828282;
-  font-size: 17px;
-}
-
-/* Style all icon tag */
-.icon {
-  width: 70px;
-}
-
 /* add bottom margin in all section */
-
-section {
-  margin-bottom: 120px;
-}
 
 /* Style h3 tag */
 
 h3 {
-  font-size: 50px;
+  font-size: 50px ; 
   font-weight: 900;
   color: black;
   margin: 0px;
@@ -78,11 +44,8 @@ header h1 {
   margin: 0px 0px 20px 0px;
 }
 
-/* Style main section  */
-main {
-  margin: auto;
-  width: 85%;
-}
+
+
 
 /* Inner div in donate section */
 #donate div {
@@ -93,11 +56,6 @@ main {
   color: #707070;
 }
 
-/* Donate amount div in donate section */
-.donate-amount {
-  /* display: flex;
-    gap: 20px; */
-}
 
 /* inner div in donate-amount */
 #donate .donate-amount div {
@@ -173,15 +131,4 @@ main {
   margin-top: 40px;
 }
 
-/* top margin in .update section */
-.update {
-  margin-top: 100px;
-}
 
-/* footer tag style */
-footer {
-  background-color: black;
-  color: white;
-  padding: 30px 0px;
-  text-align: center;
-}
