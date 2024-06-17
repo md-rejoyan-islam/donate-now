@@ -8,8 +8,8 @@ This website is designed to facilitate online donations for charitable causes. I
 
 - HTML
 - CSS
-- TailwindCSS
+- Tailwind CSS
 
 ## Neccessary Link
 
-<a href='https://md-rejoyan-islam.github.io/Donate-Now/'> Live Preview</a>
+[Live Preview](https://md-rejoyan-islam.github.io/donate-now/)
