@@ -1,21 +1,8 @@
-/* add bottom margin in all section */
-
-/* Style h3 tag */
-
-h3 {
-  font-size: 40px !important ; 
-  font-weight: 900;
-  color: black;
-  margin: 0px;
+.betternet-wrapper {
+  width: 0;
 }
 
-/* style h2 tag  */
-h2 {
-  font-size: 30px !important;
-  font-weight: 900;
-}
-
-/* header section */
+/* header backgroun image */
 header {
   background: linear-gradient(
       to top,
@@ -24,111 +11,4 @@ header {
       rgba(16, 12, 12, 0.4)
     ),
     url(../images/help2.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 120px;
 }
-
-/* Inner div in header section  */
-
-/* inner paragraph in header section */
-header p {
-  margin: auto;
-  margin-bottom: 30px;
-  color: white;
-}
-
-/* Inner  h1 tag in header tag */
-header h1 {
-  font-size: 60px;
-  margin: 0px 0px 20px 0px;
-}
-
-
-
-
-/* Inner div in donate section */
-#donate div {
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  padding: 5px;
-  color: #707070;
-}
-
-
-/* inner div in donate-amount */
-#donate .donate-amount div {
-  padding: 40px 0px;
-  width: 120px;
-  border-radius: 5px;
-  display: inline-block;
-  font-weight: 900;
-  font-size: 30px;
-}
-
-/* input tag in donate section */
-#donate input {
-  width: 100%;
-  font-size: 20px;
-  border: none;
-  padding: 10px 0px;
-  border-bottom: 1px solid rgb(202, 198, 198);
-}
-/* Input tag placeholder style */
-#donate input::placeholder {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #bdbdbd;
-}
-
-/* Child div in donate_plan */
-
-/* Inner section in donate_plan */
-
-/* Inner div in donate plan  section */
-#donate_plan section div {
-  background-color: grey;
-  padding: 45px 15px;
-  border-radius: 5px;
-}
-
-/* Img tag in similar-sec section */
-.similar_sec div img {
-  height: 350px;
-  margin: 15px;
-  width: 90%;
-  border-radius: 5px;
-}
-
-/* Style .similar_sec class section */
-.similar_sec div {
-  width: 50%;
-  margin-bottom: 70px;
-}
-
-.similar_sec img {
-  height: 300px;
-}
-
-.similar_sec {
-  display: flex;
-  margin: 30px 0px;
-}
-
-/* style inner div in .update section */
-.update div {
-  margin: auto;
-  text-align: center;
-}
-
-/* 2nd div style in .update section */
-.update div:nth-child(2) {
-  display: flex;
-  justify-content: center;
-  padding: 70px 0px;
-  background-color: #fff4d6;
-  margin-top: 40px;
-}
-
-
