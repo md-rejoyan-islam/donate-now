@@ -1,10 +1,15 @@
-# Donate-Now
+# Donate Now
 
-### Use : 
-* HTML
-* CSS
-* TailwindCSS
-<hr>
-<h3> Live Website Link </h3>
+## Overview
 
-<a href='https://md-rejoyan-islam.github.io/Donate-Now/'> Donate Now</a>
+This website is designed to facilitate online donations for charitable causes. It provides a secure and user-friendly platform for donors to contribute to their chosen cause.
+
+## Technologies Used
+
+- HTML
+- CSS
+- TailwindCSS
+
+## Neccessary Link
+
+<a href='https://md-rejoyan-islam.github.io/Donate-Now/'> Live Preview</a>
